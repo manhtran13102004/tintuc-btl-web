@@ -1,0 +1,16 @@
+h2, p , h3, span{
+    font-size: large;
+}
+
+h2, h3 {
+    margin-top: 30px;
+}
+span {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+ul {
+    list-style-type: disc; /* Hiển thị chấm tròn */
+    margin: 0; /* Căn chỉnh lề (nếu cần) */
+    padding-left: 20px; /* Khoảng cách chấm tròn với nội dung */
+}
